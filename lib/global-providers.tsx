@@ -1,6 +1,6 @@
 import { createContext, ReactNode, useContext } from "react";
-import { useAppwrite } from "./useAppWrite";
-import { getCurrentUser } from "./appwrite";
+import { useAppwrite } from "@/lib/useAppwrite";
+import { getCurrentUser } from "@/lib/appwrite";
 
 interface User {
   $id: string;
