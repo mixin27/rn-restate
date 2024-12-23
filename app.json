@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "dev.mixin27.restate"
     },
     "web": {
       "bundler": "metro",
@@ -34,7 +35,8 @@
         }
       ],
       [
-        "expo-font", {
+        "expo-font",
+        {
           "fonts": [
             "./assets/fonts/Rubik-Bold.ttf",
             "./assets/fonts/Rubik-ExtraBold.ttf",
@@ -46,7 +48,6 @@
         }
       ]
     ],
-
     "experiments": {
       "typedRoutes": true
     }
